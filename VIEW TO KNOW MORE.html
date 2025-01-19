@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> AGRICLUTRE CONNECT</title>
+    <link rel="stylesheet" href="Untitled.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.goggleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>  
+    <section class="sub-header">
+    <nav>
+        <a href="Untitled.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>    
+        <ul>
+            <li><a href="Untitled.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="technology.html">TECHNOLOGY</a></li>
+            <li><a href="communication.html">COMMUNICATION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>AGRICULTURE</h1>
+    </section>
+<!------About us content--------->    
+    <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>AGRICULTURE</h1>
+            <p>Agriculture is the practice of cultivating plants and raising animals for food, fuel, fiber, and other products. It has been a fundamental activity for human societies for thousands of years and remains a critical sector for the global economy and food security.
+
+Agriculture involves a range of activities, including soil preparation, planting, watering, fertilizing, pest control, harvesting, and storage. The techniques and technologies used in agriculture have evolved over time, with modern agriculture involving advanced machinery, genetic engineering, and precision farming practices.
+
+Agriculture plays a critical role in feeding the world's population, and sustainable agriculture practices are essential for ensuring food security and protecting the environment. Sustainable agriculture seeks to balance the needs of farmers, consumers, and the environment by promoting practices that maintain or improve soil health, conserve water, reduce pollution, and protect biodiversity.</p>
+        <a href="contact.html"class="hero-btn red-btn">EXPLORE NOW</a></div>
+        <div class="about-col">
+        <img src="ag.jpg"></div></div></section>
+    
+<!------footer--------->
+    <section class="footer">
+    <h4> ABOUT US</h4>
+        <p>Our website is dedicated to providing you with the latest news, information, and resources on everything related to agriculture<br>from crop production</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-snapchat"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>Made to help the farmers</p>
+    </section>
+<!------JavaScript for Toggle Menu------>    
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+    </body>
+</html>

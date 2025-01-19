@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> AGRICLUTRE CONNECT</title>
+    <link rel="stylesheet" href="Untitled.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.goggleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>  
+    <section class="header">
+    <nav>
+        <a href="Untitled.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>    
+        <ul>
+            <li><a href="Untitled.html">Home</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="technology.html">TECHNOLOGY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
+            <li><a href="index1.html">CHATBOT</a></li>
+             </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+        <h1> AGRICULTURE</h1>
+        <p>Agriculture is the art and science of cultivating the soil and growing crops..</p>
+        <a href="VIEW%20TO%20KNOW%20MORE.html" class="hero-btn">VIEW TO KNOW MORE</a></div> 
+    </section>
+<!------ Course ------>
+    <section class="course">
+        <h1> Technology We Offer</h1>
+        <p>Spirulina Culture,Hydra culutre,Honey Culture</p>
+        <div class="row">
+            <div class="course-col">
+            <h3>Spirulina Cultur</h3>
+            <p>Spirulina is a type of blue-green algae that is widely used as a nutritional supplement due to its high protein, vitamin, and mineral content. It is also used in the production of cosmetics and animal feed. Spirulina cultivation can be done in both open and closed systems, depending on the resources available and the scale of production.</p></div>
+            <div class="course-col">
+            <h3> Biofloc Cultvation</h3>
+            <p>Hydra is a freshwater cnidarian that is commonly used as a model organism in biological research. Hydra cultivation can be done in the laboratory using simple equipment and procedures.</p></div>
+            <div class="course-col">
+                <h3>Honey Culture </h3>
+            <p>Honey culture, also known as beekeeping, is the practice of raising and managing honey bees for the production of honey, beeswax, and other bee-related products</p></div>
+        </div>
+    </section>
+<!------ Campus ------>    
+    <section class="campus">
+    <h1>Our Technology View</h1>
+    <p>To give overview about our technology</p>
+    <div class="row">
+        <div class="campus-col">
+        <img src=s.jpg>
+            <h3> Spirulina</h3>
+            </div>
+        <div class="campus-col">
+        <img src=k.jpg>
+            <h3> Biofloc</h3></div>
+        <div class="campus-col">
+        <img src=h.jpg>
+            <h3>Honey</h3></div>
+        </div></section>
+     
+<!------Facilities------>
+<section class="facilities">   
+    <h1> Our Facilities</h1>
+    <p> Giving Facilities To Farmer</p>
+    <div class="row">
+    <div class="facilities-col">
+        <img src=w.jpg>
+        <h3>Water Source</h3></div>
+    <div class="facilities-col">
+        <img src=e.jpg>
+        <h3> Equpiment</h3></div>
+    <div class="facilities-col">
+        <img src=sm.webp>
+        <h3>Smoke</h3></div>
+    </div>
+    </section>
+<!------call to action --------->
+    <section class="cta">
+    <h1>Enroll For Our Site Anywere From The World</h1>
+    <a href="contact.html" class="hero-btn"> CONTACT US</a></section>   
+<!------footer--------->
+    <section class="footer">
+    <h4> ABOUT US</h4>
+        <p>Our website is dedicated to providing you with the latest news, information, and resources on everything related to agriculture<br>from crop production</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-snapchat"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>Made to help the farmers</p>
+    </section>
+<!------JavaScript for Toggle Menu------>    
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+<div class="container">
+    <div class="row">
+        <div class="col-2">
+            <img src="yeah.jpg"  width="60%">
+        </div>
+    <link rel="stylesheet" href="./chatbot-ui.css">
+    <div id="chat-container"></div>
+    <script src="./chatbot-ui.js"></script>
+    <script>
+        createChatBot(host = 'http://localhost:5005/webhooks/rest/webhook', botLogo = "./imgs/bot.jpg",
+            title = "MUNCH", welcomeMessage = "Hello I am Munch, how can I help you?", inactiveMsg = "I could'nt understand that, May be I don't know that", theme = "purple")
+    </script>
+
+
+    </div>   
+    </body>
+</html>

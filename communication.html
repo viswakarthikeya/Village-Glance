@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title> AGRICLUTRE CONNECT</title>
+    <link rel="stylesheet" href="Untitled.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.goggleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>  
+    <section class="sub-header">
+    <nav>
+        <a href="Untitled.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>    
+        <ul>
+            <li><a href="Untitled.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="technology.html">TECHNOLOGY</a></li>
+            <li><a href="communication.html">COMMUNICATION</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="Login.html">LOGIN</a></li>
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>COMMUNICATION</h1>
+    </section>
+<!------communication---------> 
+    <section class="new">
+        <div class="row">
+            <div class="new-col">    
+            <h3>English</h3>
+            <a href="phone.html" class="hero-btn red-btn">VIEW</a>    
+            </div>
+            <div class="new-col">
+            <h3> Telugu</h3>
+                <a href="phone.html" class="hero-btn red-btn">VIEW</a></div>
+            <div class="new-col">
+                <h3>Tamil </h3>
+                <a href="phone.html" class="hero-btn red-btn">VIEW</a></div>
+        </div>
+    </section>
+<!-------comment------->
+   <section class="comment">
+    <div class="comment-box">
+        <h3> Leave a comment</h3>
+        <form class="comment-form" action="from-handler.php">
+        <input type="text" name="name" placeholder="Enter Name">
+        <input type="Email" name="email" placeholder="Enter Email">
+        <textarea row="5" name="message" placeholder="Your comment"></textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button></form></div></section>
+<!------footer--------->
+    <section class="footer">
+    <h4> ABOUT US</h4>
+        <p>Our website is dedicated to providing you with the latest news, information, and resources on everything related to agriculture<br>from crop production</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-snapchat"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>Made to help the farmers</p>
+    </section>
+<!------JavaScript for Toggle Menu------>    
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+    </script>
+    </body>
+</html>
